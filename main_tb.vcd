@@ -1,0 +1,60 @@
+$date
+	Sat Oct 29 22:11:02 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module main_tb $end
+$var wire 32 ! C [31:0] $end
+$var reg 32 " A0 [31:0] $end
+$var reg 32 # A1 [31:0] $end
+$var reg 32 $ A2 [31:0] $end
+$var reg 32 % A3 [31:0] $end
+$var reg 1 & SEL1 $end
+$var reg 1 ' SEL2 $end
+$scope module main1 $end
+$var wire 32 ( A0 [31:0] $end
+$var wire 32 ) A1 [31:0] $end
+$var wire 32 * A2 [31:0] $end
+$var wire 32 + A3 [31:0] $end
+$var wire 32 , C [31:0] $end
+$var wire 1 & SEL1 $end
+$var wire 1 ' SEL2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 ,
+b11 +
+b10 *
+b11 )
+b10 (
+1'
+1&
+b11 %
+b10 $
+b11 #
+b10 "
+b11 !
+$end
+#10
+b10 !
+b10 ,
+0'
+#20
+b11 !
+b11 ,
+1'
+0&
+#30
+b10 !
+b10 ,
+0'
+#40
